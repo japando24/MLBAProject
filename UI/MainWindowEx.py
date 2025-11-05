@@ -14,7 +14,6 @@ from matplotlib.backends.backend_qt5agg import NavigationToolbar2QT as Navigatio
 
 from Connectors.Connector import Connector
 from Models.PurchaseLinearRegression import PurchaseLinearRegression
-from Models.PurchaseStatistic import PurchaseStatistic
 from UI.ChartHandle import ChartHandle
 from UI.DatabaseConnectEx import DatabaseConnectEx
 from UI.MainWindow import Ui_MainWindow

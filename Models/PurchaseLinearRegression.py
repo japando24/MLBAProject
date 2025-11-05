@@ -10,7 +10,8 @@ from sklearn.preprocessing import StandardScaler, LabelEncoder
 from Models.MetricsResult import MetricsResult
 from Models.PurchaseMLModel import PurchaseMLModel
 from Models.TrainedModel import TrainedModel
-from Utils.FileUtil import FileUtil
+from Utils.FileUtils import FileUtil
+
 
 class PurchaseLinearRegression(PurchaseMLModel):
     def __init__(self,connector=None):
