@@ -1,4 +1,6 @@
+# -*- coding: utf-8 -*-
 # Features encoding: Tính năng mã hóa
+
 from sklearn.preprocessing import LabelEncoder
 import seaborn as sns
 from matplotlib import pyplot as plt
