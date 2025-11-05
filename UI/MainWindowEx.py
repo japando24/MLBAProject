@@ -11,23 +11,15 @@ from matplotlib import pyplot as plt
 import seaborn as sns
 from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg as FigureCanvas
 from matplotlib.backends.backend_qt5agg import NavigationToolbar2QT as NavigationToolbar
-
 from Connectors.Connector import Connector
 from Models.PurchaseLinearRegression import PurchaseLinearRegression
 from UI.ChartHandle import ChartHandle
 from UI.DatabaseConnectEx import DatabaseConnectEx
 from UI.MainWindow import Ui_MainWindow
 import traceback
-
-
 import matplotlib
-
-from matplotlib.backends.backend_qt5agg import FigureCanvasQTAgg
 from matplotlib.figure import Figure
 
-
-from matplotlib.backends.backend_qt5agg import NavigationToolbar2QT as NavigationToolbar
-import random
 
 
 class MainWindowEx(Ui_MainWindow):
@@ -271,7 +263,6 @@ class MainWindowEx(Ui_MainWindow):
             columns_input=["gender","age","payment_method"]
         test_size=float(self.lineEditTestSize.text())/100
         random_state=int(self.lineEditRandomState.text())
-        self.purchaseLinearRegression = PurchaseLinearRegression()
         self.purchaseLinearRegression.connector = self.databaseConnectEx.connector
         self.purchaseLinearRegression.processTrain(
             columns_input,

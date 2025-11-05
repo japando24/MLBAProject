@@ -97,8 +97,9 @@ class PurchaseLinearRegression(PurchaseMLModel):
     def saveModel(self,fileName):
         ret=FileUtil.saveModel(self.trainedmodel,fileName)
         return ret
-    def loadModel(self,fileName):
-        self.trainedmodel=FileUtil.loadModel(fileName)
-        self.sc_std.fit_transform(self.trainedmodel.X_train)
-        self.model=self.trainedmodel.model
+
+    def loadModel(self, fileName):
+        self.trainedmodel = FileUtil.loadModel(fileName)
+        self.sc_std.fit(self.trainedmodel.X_train)
+        self.model = self.trainedmodel.model
         return self.model

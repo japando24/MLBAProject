@@ -1221,7 +1221,7 @@ background-color: rgb(232, 249, 255);</string>
      <x>0</x>
      <y>0</y>
      <width>1279</width>
-     <height>21</height>
+     <height>26</height>
     </rect>
    </property>
    <widget class="QMenu" name="menuSystem">
@@ -1263,7 +1263,7 @@ background-color: rgb(232, 249, 255);</string>
   <action name="actionConnection">
    <property name="icon">
     <iconset>
-     <normaloff>../Images/ic_connection.png</normaloff>../Images/ic_connection.png</iconset>
+     <normaloff>../Images/ic_menu_connectdatabase.png</normaloff>../Images/ic_menu_connectdatabase.png</iconset>
    </property>
    <property name="text">
     <string>Connect Database</string>
@@ -1275,7 +1275,7 @@ background-color: rgb(232, 249, 255);</string>
   <action name="actionSave_trained_Machine_Learning_Model">
    <property name="icon">
     <iconset>
-     <normaloff>../Images/ic_save.png</normaloff>../Images/ic_save.png</iconset>
+     <normaloff>../Images/ic_connectdatabase.png</normaloff>../Images/ic_connectdatabase.png</iconset>
    </property>
    <property name="text">
     <string>Save trained ML Model</string>
@@ -1287,7 +1287,7 @@ background-color: rgb(232, 249, 255);</string>
   <action name="actionLoad_trained_Machine_Learning_Model">
    <property name="icon">
     <iconset>
-     <normaloff>../Images/ic_load.png</normaloff>../Images/ic_load.png</iconset>
+     <normaloff>../Images/ic_menu_loadmodel.png</normaloff>../Images/ic_menu_loadmodel.png</iconset>
    </property>
    <property name="text">
     <string>Load trained ML Model</string>
@@ -1299,7 +1299,7 @@ background-color: rgb(232, 249, 255);</string>
   <action name="actionExit">
    <property name="icon">
     <iconset>
-     <normaloff>../Images/ic_shutdown.png</normaloff>../Images/ic_shutdown.png</iconset>
+     <normaloff>../Images/ic_menu_exit.png</normaloff>../Images/ic_menu_exit.png</iconset>
    </property>
    <property name="text">
     <string>Exit</string>
@@ -1311,7 +1311,7 @@ background-color: rgb(232, 249, 255);</string>
   <action name="actionInstructions">
    <property name="icon">
     <iconset>
-     <normaloff>../Images/ic_instruction.png</normaloff>../Images/ic_instruction.png</iconset>
+     <normaloff>../Images/ic_menu_intro.png</normaloff>../Images/ic_menu_intro.png</iconset>
    </property>
    <property name="text">
     <string>Instructions</string>
@@ -1320,7 +1320,7 @@ background-color: rgb(232, 249, 255);</string>
   <action name="actionAbout">
    <property name="icon">
     <iconset>
-     <normaloff>../Images/ic_about.png</normaloff>../Images/ic_about.png</iconset>
+     <normaloff>../Images/ic_menu_about.png</normaloff>../Images/ic_menu_about.png</iconset>
    </property>
    <property name="text">
     <string>About</string>
