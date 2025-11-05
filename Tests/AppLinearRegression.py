@@ -1,7 +1,7 @@
 from Connectors.Connector import Connector
 from Models.PurchaseLinearRegression import PurchaseLinearRegression
 
-connector=Connector(server="localhost",port=3306,database="lecturer_retails",username="root",password="@Obama123")
+connector=Connector(server="localhost",port=3306,database="lecturer_retails",username="root",password="@Dnb24042004")
 connector.connect()
 pm=PurchaseLinearRegression(connector=connector)
 pm.processTrain(["gender","age"],"price",0.2,0)
